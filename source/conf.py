@@ -13,8 +13,10 @@ release = 'v0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 extensions = [
-    'myst_parser'# 确保这一行存在且拼写正确
+#    'myst_parser'# 确保这一行存在且拼写正确
     # ... 其他扩展 ...
+    'recommonmark',
+     'sphinx_markdown_tables'
 ]
 # ... 其他配置 ...
 # 如果你使用了 MyST-Parser，确保它被正确配置
