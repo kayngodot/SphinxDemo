@@ -13,9 +13,6 @@ release = 'v0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.viewcode',
     'myst_parser', # 确保这一行存在且拼写正确
     # ... 其他扩展 ...
 ]
